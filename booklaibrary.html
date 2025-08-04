@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Book Library</title>
+  <link rel="stylesheet" href="booklibrary.css"/>
+   <link rel="stylesheet" href="booklibrary.js"/>
+</head>
+<body>
+
+  <header>
+    <h1>📚 My Book Library</h1>
+  </header>
+
+  <section class="form-section">
+    <input type="text" id="title" placeholder="Book Title" required />
+    <input type="text" id="author" placeholder="Author" required />
+    <input type="text" id="cover" placeholder="Cover Image URL" />
+    <button onclick="addBook()">Add Book</button>
+  </section>
+
+  <main class="library" id="library"></main>
+
+  <footer>
+    <p>© 2025 Your Name. All rights reserved.</p>
+  </footer>
+
+  <script src="booklibrary.js"></script>
+</body>
+</html>
